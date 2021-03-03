@@ -7,7 +7,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # 1. Load the image
-img = cv2.imread("test.jpeg")
+img = cv2.imread("book_page.jpg")
 
 # 2. Resize the image
 img = cv2.resize(img, None, fx=0.5, fy=0.5)
